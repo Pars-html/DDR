@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    margin-left: 90px;
+    float: left;
+    width: 20%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#HILFEMIR {
+    margin-left: 777px;
+}
+
+#HILFEMIREINEM {
+    margin-left: 820px;
+}
+
+#HILF {
+    margin-left: 810px;
+}
+
+#gdrflag {
+    margin-left: 700px;
+}
+
+#comecon {
+    margin-left: 710px;
+}
